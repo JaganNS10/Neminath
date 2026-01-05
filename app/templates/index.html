@@ -1,0 +1,566 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="icon" href="{% static 'assets/images/NeminathLogo.png' %}" type="image/png">
+    <title>Neminath Wood Industry Pvt Ltd</title>
+
+    <!-- Bootstrap core CSS -->
+
+
+    <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="{% static 'assets/css/fontawesome.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/templatemo-eduwell-style.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/owl.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/lightbox.css' %}">
+
+  </head>
+
+<body>
+
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky">
+      <div class="container">
+          <div class="row">
+              <div class="col-12">
+                  <nav class="main-nav">
+                      <!-- ***** Logo Start ***** -->
+                      <a  href="{% url 'home' %}"  class="logo">
+                        <span class="Headingpart1">
+                          Neminath
+                        </span>
+                      </a>
+                      <!-- ***** Logo End ***** -->
+                      <!-- ***** Menu Start ***** -->
+                      <ul class="nav">
+                          <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
+                          <li class="scroll-to-section"><a href="#services">Services</a></li>
+                          <li class="scroll-to-section"><a href="#courses">Products</a></li>
+                          <li class="has-sub">
+                              <a href="javascript:void(0)">Our Company</a>
+                              <ul class="sub-menu">
+                                  <li><a href="{% url 'about' %}">About Us</a></li>
+                                  <li><a href="{% url 'career' %}">Career</a></li>
+                                  <li><a href="{% url 'contact' %}">Contact Us</a></li>
+                              </ul>
+                          </li>
+                          <li class="scroll-to-section"><a href="#testimonials">Testimonials</a></li> 
+                          <li class="scroll-to-section"><a href="#contact-section">Contact Us</a></li> 
+                      </ul>        
+                      <a class='menu-trigger'>
+                          <span>Menu</span>
+                      </a>
+                      <!-- ***** Menu End ***** -->
+                  </nav>
+              </div>
+          </div>
+      </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <!-- ***** Main Banner Area Start ***** -->
+  <section class="main-banner" id="top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 align-self-center">
+          <div class="header-text">
+            <h6>Welcome to Neminath Wood Industry</h6>
+            <h2>Best Place for Safe & Comfortable <em>Baby Cots</em></h2>
+            <div class="main-button-gradient">
+              <div class="scroll-to-section"><a href="#contact-section">Join Us Now!</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="right-image">
+            <img src="{% static 'assets/images/Babycot.jpg' %}" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ***** Main Banner Area End ***** -->
+
+  <section class="services" id="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section-heading">
+            <h6>Our Services</h6>
+            <h4>Provided <em>Services</em></h4>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="owl-service-item owl-carousel">
+            <div class="item">
+              <div class="service-item">
+                <div class="icon">
+                  <img src="{% static 'assets/images/BabyCotIcon1.jpg' %}" alt="">
+                </div>
+                <h4>Why Choose Our Baby Cots</h4>
+                <p>Neminath Wood Industry manufactures premium wooden baby cots designed for safety, comfort, and long-lasting durability.</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="service-item">
+                <div class="icon">
+                  <img src="{% static 'assets/images/BabyCotIcon2.jpg' %}" alt="">
+                </div>
+               <h4>Premium Wooden Design</h4>
+               <p>Our baby cots are thoughtfully designed with premium wood to ensure strength, safety, and timeless style.</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="service-item">
+                <div class="icon">
+                  <img src="{% static 'assets/images/BabyCotIcon3.jpg' %}" alt="">
+                </div>
+                <h4>Designed for Your Baby</h4>
+                <p>Every baby cot is created to provide maximum comfort and a peaceful sleeping experience.</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="service-item">
+                <div class="icon">
+                  <img src="{% static 'assets/images/BabyCotIcon4.jpg' %}" alt="">
+                </div>
+                <h4>Expert Craftsmanship</h4>
+                <p>We combine skilled workmanship and quality wood to manufacture baby cots you can trust.</p>
+              </div>
+            </div>
+             <div class="item">
+              <div class="service-item">
+                <div class="icon">
+                  <img src="{% static 'assets/images/BabyCotIcon5.jpg' %}" alt="">
+                </div>
+                <h4>Comfortable Sleeping Space</h4>
+                <p>Designed to provide a cozy and peaceful sleeping environment for babies and toddlers.</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="service-item">
+                <div class="icon">
+                  <img src="{% static 'assets/images/BabyCotIcon6.jpg' %}" alt="">
+                </div>
+                <h4>Trusted by Parents</h4>
+                <p>Parents trust our baby cots for their safety, comfort, and reliable craftsmanship.</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="service-item">
+                <div class="icon">
+                  <img src="{% static 'assets/images/BabyCotIcon7.jpg' %}" alt="">
+                </div>
+                <h4>Long-Lasting Quality</h4>
+                <p>We use high-quality wood to manufacture baby cots that remain strong, stable, and durable for years.</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="service-item">
+                <div class="icon">
+                  <img src="{% static 'assets/images/BabyCotIcon8.jpg' %}" alt="">
+                </div>
+                <h4>Safe & Secure Build</h4>
+                <p>Our baby cots are built with strong wooden frames and smooth edges to ensure complete safety for your child.</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="service-item">
+                <div class="icon">
+                  <img src="{% static 'assets/images/BabyCotIcon1.jpg' %}" alt="">
+                </div>
+                <h4>Smooth & Baby-Safe Finish</h4>
+                <p>Each baby cot is polished with smooth edges and safe finishing to protect your baby from any harm.</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="service-item">
+                <div class="icon">
+                  <img src="{% static 'assets/images/BabyCotIcon2.jpg' %}" alt="">
+                </div>
+                <h4>Smart & Simple Design</h4>
+                <p>Our baby cots feature clean designs that blend perfectly with both modern and traditional interiors.</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="service-item">
+                <div class="icon">
+                  <img src="{% static 'assets/images/BabyCotIcon3.jpg' %}" alt="">
+                </div>
+                <h4>Custom Baby Cot Options</h4>
+                <p>We offer customization in size and design to match your specific baby cot requirements.</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="service-item">
+                <div class="icon">
+                  <img src="{% static 'assets/images/BabyCotIcon4.jpg' %}" alt="">
+                </div>
+                <h4>Premium Wood Selection</h4>
+                <p>We carefully select high-grade wood to ensure strength, durability, and a natural finish for every baby cot.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="our-courses" id="courses">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 offset-lg-3">
+          <div class="section-heading">
+            <h6>OUR PRODUCTS</h6>
+            <h4>What We <em>Manufacture</em></h4>
+            <p>Neminath Wood Industry specializes in manufacturing high-quality wooden baby cots designed for safety, comfort, and durability.</p>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="naccs">
+            <div class="tabs">
+              <div class="row">
+                <div class="col-lg-3">
+                  <div class="menu">
+                    <div class="active gradient-border"><span>Wooden Baby Cots</span></div>
+                    <div class="gradient-border"><span>Newborn Baby Cots</span></div>
+                    <div class="gradient-border"><span>Toddler Baby Cots</span></div>
+                    <div class="gradient-border"><span>Custom Baby Cots</span></div>
+                  </div>
+                </div>
+                <div class="col-lg-9">
+                  <ul class="nacc">
+                    <li class="active">
+                      <div>
+                        <div class="left-image">
+                          <img src="{% static 'assets/images/BabyCotImage1.jpg' %}" alt="">
+                        </div>
+                        <div class="right-content">
+                          <h4>Wooden Baby Cot</h4>
+                          <p>Our wooden baby cots are carefully crafted using high-quality wood to ensure maximum safety, comfort, and durability for your baby.<br><br>Each cot features smooth edges, a strong structure, and a cozy design that provides a peaceful sleeping environment for newborns and toddlers.</p>
+                          <span>Premium Wood</span>
+                          <span>Baby-Safe Finish</span>
+                          <span class="last-span">Long-Lasting</span>
+                          <div class="text-button">
+                            <a href="{% url 'contact' %}">Enquire Now</a>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="left-image">
+                          <img src="{% static 'assets/images/NewBornbabycot.jpg' %}" alt="">
+                        </div>
+                        <div class="right-content">
+                          <h4>Newborn Baby Cot</h4>
+                          <p>Our newborn baby cots are specially designed to provide maximum safety, comfort, and support for your baby’s first sleeping stage.
+                          <br><br>Crafted with smooth edges and a gentle finish, these cots create a secure and cozy environment for peaceful sleep.</p>
+                          <span>Newborn Safe</span>
+                          <span>Soft & Secure</span>
+                          <span class="last-span">Comfort Design</span>
+                          <div class="text-button">
+                            <a href="{% url 'contact' %}">Enquire Now</a>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="left-image">
+                          <img src="{% static 'assets/images/ToddlerBabyCots.jpg' %}" alt="">
+                        </div>
+                        <div class="right-content">
+                          <h4>Toddler Baby Cot</h4>
+                          <p>Our toddler baby cots are designed to support growing children with a strong structure and spacious sleeping area.
+                          <br><br>Made from high-quality wood, these cots offer stability, comfort, and safety while allowing toddlers to sleep peacefully.</p>
+                          <span>Strong Build</span>
+                          <span>Spacious Design</span>
+                          <span class="last-span">Child-Safe</span>
+                          <div class="text-button">
+                            <a href="{% url 'contact' %}">Enquire Now</a>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="left-image">
+                          <img src="{% static 'assets/images/custombabycots.jpg' %}" alt="">
+                        </div>
+                        <div class="right-content">
+                          <h4>Custom Baby Cot</h4>
+                          <p>Our custom baby cots are made to meet your specific requirements in size, design, and finishing.
+                          <br><br>We use premium-quality wood and expert craftsmanship to create baby cots that perfectly match your needs and home style.</p>
+                          <span>Custom Size</span>
+                          <span>Premium Finish</span>
+                          <span class="last-span">Made to Order</span>
+                          <div class="text-button">
+                            <a href="{% url 'contact' %}">Enquire Now</a>
+                          </div>
+                        </div>
+                      </div>
+                      </li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="simple-cta">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 offset-lg-1">
+          <div class="left-image">
+            <img src="{% static 'assets/images/Qualitybabycot.jpg' %}" alt="">
+          </div>
+        </div>
+        <div class="col-lg-5 align-self-center">
+          <h6>Looking for a Baby Cot?</h6>
+          <h4>Quality Wooden Baby Cots You Can Trust</h4>
+          <p>We manufacture strong, safe, and comfortable wooden baby cots designed to give your baby a peaceful sleep.</p>
+          <div class="white-button">
+            <a href="{% url 'contact' %}">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section-heading">
+            <h6>Testimonials</h6>
+            <h4>What They <em>Think</em></h4>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="owl-testimonials owl-carousel" style="position: relative; z-index: 5;">
+            <div class="item">
+              <p>“For high-quality wood products and expert craftsmanship, Neminath Wood Industry is your trusted partner.”</p>
+              <h4>Ramesh Kumar</h4>
+              <span>Founder & CEO, Neminath Wood Industry</span>
+              <img src="{% static 'assets/images/quote.png' %}" alt="">
+            </div>
+            <div class="item">
+              <p>“Neminath Wood Industry delivers high-quality wooden baby cots with excellent craftsmanship and a strong focus on safety and comfort.”</p>
+              <h4>Neminath Wood Industry</h4>
+              <span>Baby Cot Manufacturer</span>
+              <img src="{% static 'assets/images/quote.png' %}" alt="">
+            </div>
+            <div class="item">
+              <p>“Whenever you need the finest wood products and trusted craftsmanship, think of Neminath Wood Industry.”</p>
+              <h4>Arjun Mehta</h4>
+              <span>CEO & Founder, Neminath Wood Industry</span>
+
+              <img src="{% static 'assets/images/quote.png' %}" alt="">
+            </div>
+            <div class="item">
+             <p>“Our commitment to quality wood products and expert craftsmanship ensures your projects stand out.”</p>
+             <h4>Vikram Patel</h4>
+             <span>Operations Manager, Neminath Wood Industry</span>
+             <img src="{% static 'assets/images/quote.png' %}" alt="">
+            </div>
+            <div class="item">
+              <p>“Neminath Wood Industry delivers top-quality wood products with precision and craftsmanship you can trust.”</p>
+              <h4>Rohit Sharma</h4>
+              <span>Client & Partner, Neminath Wood Industry</span>
+
+              <img src="{% static 'assets/images/quote.png' %}" alt="">
+            </div>
+            <div class="item">
+              <p>“Working with Neminath Wood Industry means getting premium wood products and reliable service every time.”</p>
+              <h4>Ajay Mehta</h4>
+              <span>Marketing Manager, Neminath Wood Industry</span>
+
+              <img src="{% static 'assets/images/quote.png' %}" alt="">
+            </div>
+            <div class="item">
+              <p>“Neminath Wood Industry combines quality, durability, and craftsmanship to create wood products you can rely on.”</p>
+              <h4>Rakesh Jain</h4>
+              <span>Client & Partner, Neminath Wood Industry</span>
+
+              <img src="{% static 'assets/images/quote.png' %}" alt="">
+            </div>
+            <div class="item">
+              <p>“At Neminath Wood Industry, we turn quality wood into durable and elegant products that exceed expectations.”</p>
+              <h4>Sanjay Desai</h4>
+              <span>Client & Partner, Neminath Wood Industry</span>
+              <img src="{% static 'assets/images/quote.png' %}" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-us" id="contact-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8">
+          <div id="map">
+          
+            <!-- You just need to go to Google Maps for your own map point, and copy the embed code from Share -> Embed a map section -->
+            <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7151.84524236698!2d-122.19494600413192!3d47.56605883252286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490695e625f8965%3A0xf99b055e76477def!2sNewcastle%20Beach%20Park%20Playground%2C%20Bellevue%2C%20WA%2098006%2C%20USA!5e0!3m2!1sen!2sth!4v1644335269264!5m2!1sen!2sth" width="100%" height="420px" frameborder="0" style="border:0; border-radius: 15px; position: relative; z-index: 2;" allowfullscreen=""></iframe>
+              -->
+            <iframe
+              src="https://www.google.com/maps?q=Neminath%20Wood%20Industry,%20749P+VW2,%20Panayancheri,%20Tamil%20Nadu%20601204&z=16&output=embed"
+              width="100%"
+              height="420px"
+              frameborder="0"
+              style="border:0; border-radius:15px; position:relative; z-index:2;"
+              allowfullscreen
+              loading="lazy">
+            </iframe>
+            <div class="row">
+              <div class="col-lg-4 offset-lg-1">
+                <div class="contact-info">
+                  <div class="icon">
+                    <i class="fa fa-phone"></i>
+                  </div>
+                  <h4>Phone</h4>
+                  <span>010-020-0340</span>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="contact-info">
+                  <div class="icon">
+                    <i class="fa fa-phone"></i>
+                  </div>
+                  <h4>Mobile</h4>
+                  <span>090-080-0760</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <form id="contact" action="{% url 'contactform' %}" method="post">
+            {% csrf_token %}
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="section-heading">
+                  <h6>Contact us</h6>
+                  <h4>Say <em>Hello</em></h4>
+                  <p>Have questions or need our wood products? Get in touch with Neminath Wood Industry and our team will assist you promptly.</p>
+                </div>  
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
+                  <input type="name" name="name" id="name" placeholder="Full Name" autocomplete="on" required>
+                </fieldset>
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
+                  <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email" required="">
+                </fieldset>
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
+                  <textarea name="message" id="message" placeholder="Your Message" required></textarea>
+                </fieldset>
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
+                  <button type="submit" id="form-submit" class="main-gradient-button">Send Message</button>
+                </fieldset>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col-lg-12">
+          <ul class="social-icons">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fa fa-rss"></i></a></li>
+            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-lg-12">
+          <p class="copyright">Copyright © 2018 Neminath wood Industry. All Rights Reserved. 
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+    <script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
+    <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+
+    <script src="{% static 'assets/js/isotope.min.js' %}"></script>
+    <script src="{% static 'assets/js/owl-carousel.js' %}"></script>
+    <script src="{% static 'assets/js/lightbox.js' %}"></script>
+    <script src="{% static 'assets/js/tabs.js' %}"></script>
+    <script src="{% static 'assets/js/video.js' %}"></script>
+    <script src="{% static 'assets/js/slick-slider.js' %}"></script>
+    <script src="{% static 'assets/js/custom.js' %}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        //according to loftblog tut
+        $('.nav li:first').addClass('active');
+
+        var showSection = function showSection(section, isAnimate) {
+          var
+          direction = section.replace(/#/, ''),
+          reqSection = $('.section').filter('[data-section="' + direction + '"]'),
+          reqSectionPos = reqSection.offset().top - 0;
+
+          if (isAnimate) {
+            $('body, html').animate({
+              scrollTop: reqSectionPos },
+            800);
+          } else {
+            $('body, html').scrollTop(reqSectionPos);
+          }
+
+        };
+
+        var checkSection = function checkSection() {
+          $('.section').each(function () {
+            var
+            $this = $(this),
+            topEdge = $this.offset().top - 80,
+            bottomEdge = topEdge + $this.height(),
+            wScroll = $(window).scrollTop();
+            if (topEdge < wScroll && bottomEdge > wScroll) {
+              var
+              currentId = $this.data('section'),
+              reqLink = $('a').filter('[href*=\\#' + currentId + ']');
+              reqLink.closest('li').addClass('active').
+              siblings().removeClass('active');
+            }
+          });
+        };
+
+        $('.main-menu, .responsive-menu, .scroll-to-section').on('click', 'a', function (e) {
+          e.preventDefault();
+          showSection($(this).attr('href'), true);
+        });
+
+        $(window).scroll(function () {
+          checkSection();
+        });
+    </script>
+</body>
+
+</html>

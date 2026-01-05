@@ -1,0 +1,486 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="icon" href="{% static 'assets/images/NeminathLogo.png' %}" type="image/png">
+    <title>Neminath Wood Industry Pvt Ltd</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="{% static 'assets/css/fontawesome.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/templatemo-eduwell-style.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/owl.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/lightbox.css' %}">
+
+  </head>
+
+<body>
+
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky">
+      <div class="container">
+          <div class="row">
+              <div class="col-12">
+                <nav class="main-nav">
+                  <!-- ***** Logo Start ***** -->
+                  <a href="{% url 'home' %}" class="logo">
+                      <span class="Headingpart1">
+                        Neminath
+                      </span>
+                  </a>
+                  <!-- ***** Logo End ***** -->
+                  <!-- ***** Menu Start ***** -->
+                  <ul class="nav">
+                    <li><a href="{% url 'home' %}" class="active">Home</a></li>
+                    <li><a href="{% url 'home' %}">Services</a></li>
+                    <li><a href="{% url 'home' %}">Products</a></li>
+                    <li class="has-sub">
+                        <a href="javascript:void(0)">Our Company</a>
+                        <ul class="sub-menu">
+                            <li><a href="{% url 'about' %}">About Us</a></li>
+                            <li><a href="{% url 'career' %}">Career</a></li>
+                            <li><a href="{% url 'contact' %}">Contact Us</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="{% url 'home' %}">Testimonials</a></li> 
+                    <li><a href="{% url 'home' %}">Contact Us</a></li> 
+                </ul>         
+                  <a class='menu-trigger'>
+                      <span>Menu</span>
+                  </a>
+                  <!-- ***** Menu End ***** -->
+                </nav>
+              </div>
+          </div>
+      </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <section class="page-heading">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="header-text">
+            <h4>More About Us</h4>
+            <h1>About Us</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="get-info">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="left-image">
+            <img src="{% static 'assets/images/Lefthand.jpg' %}" alt="" style="border-radius:20px;">
+          </div>
+        </div>
+        <div class="col-lg-6 align-self-center">
+          <div class="section-heading">
+            <h6>Get Info</h6>
+            <h4>Read More <em>About Us</em></h4>
+            <p>
+              Neminath Wood Industry is dedicated to delivering high-quality wood products with precision and reliability. 
+              We specialize in supplying durable timber and wood solutions that meet both commercial and residential needs.<br><br>
+              With a strong focus on craftsmanship, ethical practices, and customer satisfaction, we ensure every product 
+              reflects our commitment to quality and trust. Our goal is to build long-lasting relationships by providing 
+              dependable wood materials and excellent service.
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="info-item">
+                <div class="icon">
+                  <img src="{% static 'assets/images/BabyCotIcon1.jpg' %}" alt="">
+                </div>
+                <h4>Best Strategy</h4>
+                <p>Our strategy is built on sustainable sourcing, modern processing techniques, and consistent quality control across all wood products.</p>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="info-item">
+                <div class="icon">
+                  <img src="{% static 'assets/images/BabyCotIcon2.jpg' %}" alt="">
+                </div>
+                <h4>Creative Ideas</h4>
+                <p>We transform innovative ideas into finely crafted wood products that blend functionality, durability, and aesthetic appeal.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="our-team">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 offset-lg-3">
+          <div class="section-heading">
+            <h6>Our Team</h6>
+            <h4>Our Team <em>Members</em></h4>
+          </div>
+        </div>
+        <div class="col-lg-10 offset-lg-1">
+          <div class="naccs">
+            <div class="tabs">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="menu">
+                    <div class="active">
+                      <img src="{% static 'assets/images/People1.jpg' %}" alt="">
+                      <h4>Ramesh Jain</h4>
+                      <span>Founder & Managing Director</span>
+                    </div>
+                    <div>
+                      <img src="{% static 'assets/images/People2.jpg' %}" alt="">
+                      <h4>Suresh Patel</h4>
+                      <span>Operations Manager</span>
+                    </div>
+                    <div>
+                      <img src="{% static 'assets/images/People3.jpg' %}" alt="">
+                      <h4>Mahesh Kumar</h4>
+                      <span>Production Supervisor</span>
+                    </div>
+                    <div>
+                      <img src="{% static 'assets/images/People4.jpg' %}" alt="">
+                      <h4>Anil Shah</h4>
+                      <span>Quality Control Head</span>
+                    </div>
+                    <div>
+                      <img src="{% static 'assets/images/People5.jpg' %}" alt="">
+                      <h4>Vikram Mehta</h4>
+                      <span>Sales & Marketing Manager</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <ul class="nacc">
+                    <li class="active">
+                      <div>
+                        <div class="left-content">
+                         <h4>Ramesh Jain</h4>
+                        <p>
+                          With years of experience in the wood industry, Ramesh Jain leads Neminath Wood Industry with a strong focus on quality,
+                          ethical practices, and customer satisfaction. His vision drives the company toward consistent growth and excellence.
+                        </p>
+                        <span><a href="#">Facebook</a></span>
+                        <span><a href="#">Twitter</a></span>
+                        <span class="last-span"><a href="#">LinkedIn</a></span>
+                        <div class="text-button">
+                            <a href="{% url 'contact' %}">Contact Member</a>
+                        </div>
+                        </div>
+                        <div class="right-image">
+                          <img src="{% static 'assets/images/People1.jpg' %}" alt="">
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="left-content">
+                          <h4>Suresh Patel</h4>
+                          <p>
+                            Suresh Patel oversees daily operations at Neminath Wood Industry, ensuring smooth production processes,
+                            efficient workflow, and timely delivery while maintaining high quality standards.
+                          </p>
+                          <span><a href="#">Facebook</a></span>
+                          <span><a href="#">Twitter</a></span>
+                          <span class="last-span"><a href="#">Linkedin</a></span>
+                          <div class="text-button">
+                            <a href="{% url 'contact' %}">Contact Member</a>
+                          </div>
+                        </div>
+                        <div class="right-image">
+                          <img src="{% static 'assets/images/People2.jpg' %}" alt="">
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="left-content">
+                          <h4>Mahesh Kumar</h4>
+                          <p>
+                            Mahesh Kumar manages the production unit, ensuring precision, safety, and consistency in every stage of the
+                            wood manufacturing process to deliver durable and high-quality products.
+                          </p>
+                          <span><a href="#">Facebook</a></span>
+                          <span><a href="#">Twitter</a></span>
+                          <span class="last-span"><a href="#">Linkedin</a></span>
+                          <div class="text-button">
+                            <a href="{% url 'contact' %}">Contact Member</a>
+                          </div>
+                        </div>
+                        <div class="right-image">
+                          <img src="{% static 'assets/images/People3.jpg' %}" alt="">
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="left-content">
+                          <h4>Anil Shah</h4>
+                          <p>
+                            Anil Shah is responsible for maintaining strict quality control standards, ensuring that every wood product
+                            meets industry specifications and customer expectations before delivery.
+                          </p>
+                          <span><a href="#">Facebook</a></span>
+                          <span><a href="#">Twitter</a></span>
+                          <span class="last-span"><a href="#">Linkedin</a></span>
+                          <div class="text-button">
+                            <a href="{% url 'contact' %}">Contact Member</a>
+                          </div>
+                        </div>
+                        <div class="right-image">
+                          <img src="{% static 'assets/images/People4.jpg' %}" alt="">
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                        <div>
+                          <div class="left-content">
+                            <h4>Vikram Mehta</h4>
+                            <p>
+                              Vikram Mehta handles sales and marketing, building strong client relationships and expanding the company’s
+                              reach through effective communication and reliable service.
+                            </p>
+                            <span><a href="#">Facebook</a></span>
+                            <span><a href="#">Twitter</a></span>
+                            <span class="last-span"><a href="#">Linkedin</a></span>
+                            <div class="text-button">
+                              <a href="{% url 'contact' %}">Contact Member</a>
+                            </div>
+                          </div>
+                          <div class="right-image">
+                            <img src="{% static 'assets/images/People5.jpg' %}" alt="">
+                          </div>
+                        </div>
+                    </li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="simple-cta">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 offset-lg-1">
+          <div class="left-image">
+            <img src="{% static 'assets/images/BabyCotIcon7.jpg' %}" alt="">
+          </div>
+        </div>
+        <div class="col-lg-5 align-self-center">
+          <h6>Limited Time Offer</h6>
+          <h4>Reliable Wood Solutions You Can Trust</h4>
+          <p>
+            Choose from our premium selection of wood products with assured quality, durability, and timely delivery.
+          </p>
+          <div class="white-button">
+            <a href="{% url 'contact' %}">Get a Quote</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section-heading">
+            <h6>Testimonials</h6>
+            <h4>What They <em>Think</em></h4>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="owl-testimonials owl-carousel" style="position: relative; z-index: 5;">
+            <div class="item">
+              <p>“For high-quality wood products and expert craftsmanship, Neminath Wood Industry is your trusted partner.”</p>
+              <h4>Ramesh Kumar</h4>
+              <span>Founder & CEO, Neminath Wood Industry</span>
+              <img src="{% static 'assets/images/quote.png' %}" alt="">
+            </div>
+            <div class="item">
+              <p>“Neminath Wood Industry delivers high-quality wooden baby cots with excellent craftsmanship and a strong focus on safety and comfort.”</p>
+              <h4>Neminath Wood Industry</h4>
+              <span>Baby Cot Manufacturer</span>
+              <img src="{% static 'assets/images/quote.png' %}" alt="">
+            </div>
+            <div class="item">
+              <p>“Whenever you need the finest wood products and trusted craftsmanship, think of Neminath Wood Industry.”</p>
+              <h4>Arjun Mehta</h4>
+              <span>CEO & Founder, Neminath Wood Industry</span>
+
+              <img src="{% static 'assets/images/quote.png' %}" alt="">
+            </div>
+            <div class="item">
+             <p>“Our commitment to quality wood products and expert craftsmanship ensures your projects stand out.”</p>
+             <h4>Vikram Patel</h4>
+             <span>Operations Manager, Neminath Wood Industry</span>
+             <img src="{% static 'assets/images/quote.png' %}" alt="">
+            </div>
+            <div class="item">
+              <p>“Neminath Wood Industry delivers top-quality wood products with precision and craftsmanship you can trust.”</p>
+              <h4>Rohit Sharma</h4>
+              <span>Client & Partner, Neminath Wood Industry</span>
+
+              <img src="{% static 'assets/images/quote.png' %}" alt="">
+            </div>
+            <div class="item">
+              <p>“Working with Neminath Wood Industry means getting premium wood products and reliable service every time.”</p>
+              <h4>Ajay Mehta</h4>
+              <span>Marketing Manager, Neminath Wood Industry</span>
+
+              <img src="{% static 'assets/images/quote.png' %}" alt="">
+            </div>
+            <div class="item">
+              <p>“Neminath Wood Industry combines quality, durability, and craftsmanship to create wood products you can rely on.”</p>
+              <h4>Rakesh Jain</h4>
+              <span>Client & Partner, Neminath Wood Industry</span>
+
+              <img src="{% static 'assets/images/quote.png' %}" alt="">
+            </div>
+            <div class="item">
+              <p>“At Neminath Wood Industry, we turn quality wood into durable and elegant products that exceed expectations.”</p>
+              <h4>Sanjay Desai</h4>
+              <span>Client & Partner, Neminath Wood Industry</span>
+              <img src="{% static 'assets/images/quote.png' %}" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-us our-office">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="left-info">
+            <div class="section-heading">
+              <h6>Our Office</h6>
+              <h4>Get closer to <em>Neminath</em></h4>
+            </div>
+            <p>
+              Neminath Wood Industry is committed to supplying high-quality wood products crafted with precision and care.
+              We focus on durability, sustainability, and customer satisfaction to meet the needs of both commercial and
+              residential projects.<br><br>
+              Our experienced team ensures reliable service, consistent quality, and timely delivery for every order.
+            </p>
+            <ul>
+              <li>- Premium quality timber and wood products</li>
+              <li>- Skilled craftsmanship and modern processing</li>
+              <li>- Ethical sourcing and quality assurance</li>
+              <li>- On-time delivery and customer-focused service</li>
+            </ul>
+            <div class="main-button-gradient">
+              <a href="{% url 'contact' %}">Our Services</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-8">
+          <div id="video">
+            <div class="thumb">
+              <img src="{% static 'assets/images/video-thumb.jpg' %}" alt="">
+              <div class="play-button">
+                <a rel="nofollow" href="https://www.youtube.com/" target="_blank"><i class="fa fa-play"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <ul class="social-icons">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fa fa-rss"></i></a></li>
+            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-lg-12">
+          <p class="copyright">Copyright © 2018 Neminath Wood Industry Pvt Ltd. All Rights Reserved. </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+    <script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
+    <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+
+    <script src="{% static 'assets/js/isotope.min.js' %}"></script>
+    <script src="{% static 'assets/js/owl-carousel.js' %}"></script>
+    <script src="{% static 'assets/js/lightbox.js' %}"></script>
+    <script src="{% static 'assets/js/tabs.js' %}"></script>
+    <script src="{% static 'assets/js/video.js' %}"></script>
+    <script src="{% static 'assets/js/slick-slider.js' %}"></script>
+    <script src="{% static 'assets/js/custom.js' %}"></script>
+    <script>
+        //according to loftblog tut
+        $('.nav li:first').addClass('active');
+
+        var showSection = function showSection(section, isAnimate) {
+          var
+          direction = section.replace(/#/, ''),
+          reqSection = $('.section').filter('[data-section="' + direction + '"]'),
+          reqSectionPos = reqSection.offset().top - 0;
+
+          if (isAnimate) {
+            $('body, html').animate({
+              scrollTop: reqSectionPos },
+            800);
+          } else {
+            $('body, html').scrollTop(reqSectionPos);
+          }
+
+        };
+
+        var checkSection = function checkSection() {
+          $('.section').each(function () {
+            var
+            $this = $(this),
+            topEdge = $this.offset().top - 80,
+            bottomEdge = topEdge + $this.height(),
+            wScroll = $(window).scrollTop();
+            if (topEdge < wScroll && bottomEdge > wScroll) {
+              var
+              currentId = $this.data('section'),
+              reqLink = $('a').filter('[href*=\\#' + currentId + ']');
+              reqLink.closest('li').addClass('active').
+              siblings().removeClass('active');
+            }
+          });
+        };
+
+        $('.main-menu, .responsive-menu, .scroll-to-section').on('click', 'a', function (e) {
+          e.preventDefault();
+          showSection($(this).attr('href'), true);
+        });
+
+        $(window).scroll(function () {
+          checkSection();
+        });
+    </script>
+    
+</body>
+</html>
